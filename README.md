@@ -105,10 +105,10 @@ Each kernel automatically runs 30 times, and the average execution time is recor
 - c.) Between SIMD and SIMT, which one is faster? Give some use cases in which one is better than the other.
 
 ## Project Experience and Insights
-[insert problems encountered and solutions made]
-[insert unique methodology used] 
-[insert AHA moments, etc.]
+- [insert problems encountered and solutions made]
+- [insert unique methodology used] 
+- [insert AHA moments, etc.]
 
 ## Differences between SIMD and SIMT
-[discuss, based on your experience on the particular project use case, the differences between SIMD and SIMT in handling parallelism.]
-[include also the PROS and CONS of using SIMD and SIMT in your use]
+- [discuss, based on your experience on the particular project use case, the differences between SIMD and SIMT in handling parallelism.]
+- [include also the PROS and CONS of using SIMD and SIMT in your use]
