@@ -1,6 +1,6 @@
 # Deep-Dive-CUDA-concept-and-programming
 
-## **Group 5 Members**
+### **Group 5 Members**
 - Hernaez, Raeka Estrelle
 - Liwanag, Ram Miguel
 - Serrano, Paul Rhazzel
@@ -109,7 +109,8 @@ Each kernel automatically runs 30 times, and the average execution time is recor
 - [insert problems encountered and solutions made]
 - [insert unique methodology used] 
 - [insert AHA moments, etc.]
-
+  
+---
 ## Differences between SIMD and SIMT
 - [discuss, based on your experience on the particular project use case, the differences between SIMD and SIMT in handling parallelism.]
 - [include also the PROS and CONS of using SIMD and SIMT in your use]
