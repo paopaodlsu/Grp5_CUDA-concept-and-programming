@@ -1,4 +1,4 @@
-# Deep-Dive-CUDA-concept-and-programming
+# CUDA concept and programming
 
 ### **Group 5 Members**
 - Hernaez, Raeka Estrelle
