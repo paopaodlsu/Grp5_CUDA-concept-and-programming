@@ -6,12 +6,15 @@
 - Serrano, Paul Rhazzel
 - Tiu, Kyle
 
-### AI Usage Declaration
-[insert ai declaration]
-
 ---
 ## Project Specifications
 [insert project specs]
+
+### Google Colab link
+[insert Google Colab link here]
+
+### AI Usage Declaration
+[insert ai declaration]
 
 ---
 ## Program Output, Correctness Check, and Execution Time
@@ -97,9 +100,9 @@ Each kernel automatically runs 30 times, and the average execution time is recor
 ### Additional (from the specs)
 --Guide questions for analysis (for all CUDA variants).  This is not comprehensive; add more analysis as necessary --
 
-a.) How does block size affect execution time (observing various elements and using max blocks)?  Which block size will you recommend?
-b.) Is prefetching always recommended, or should CUDA manage memory?  Give some use cases in which one is better than the other.
-c.) Between SIMD and SIMT, which one is faster? Give some use cases in which one is better than the other.
+- a.) How does block size affect execution time (observing various elements and using max blocks)?  Which block size will you recommend?
+- b.) Is prefetching always recommended, or should CUDA manage memory?  Give some use cases in which one is better than the other.
+- c.) Between SIMD and SIMT, which one is faster? Give some use cases in which one is better than the other.
 
 ## Project Experience and Insights
 [insert problems encountered and solutions made]
