@@ -50,8 +50,7 @@
 ## Comparative Execution Time
 
 ### Table 1. CUDA Block Size: 256
-Each kernel automatically runs 30 times, and the average execution time is recorded below:
-| - | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
+|   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|-------------------|-------------------|-------------------|-----------------------|
 | C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
 | x86-64 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
@@ -63,8 +62,7 @@ Each kernel automatically runs 30 times, and the average execution time is recor
 | CUDA Prefetch+Page creatition+memadvise	 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 
 ### Table 2. CUDA Block Size: 512
-Each kernel automatically runs 30 times, and the average execution time is recorded below:
-| - | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
+|   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|-------------------|-------------------|-------------------|-----------------------|
 | C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
 | x86-64 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
@@ -77,7 +75,7 @@ Each kernel automatically runs 30 times, and the average execution time is recor
 
 ### Table 3. CUDA Block Size: 1024
 Each kernel automatically runs 30 times, and the average execution time is recorded below:
-| - | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
+|   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|-------------------|-------------------|-------------------|-----------------------|
 | C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
 | x86-64 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
@@ -87,3 +85,27 @@ Each kernel automatically runs 30 times, and the average execution time is recor
 | CUDA Prefetch | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | CUDA Prefetch+page creation | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | CUDA Prefetch+Page creatition+memadvise	 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+
+---
+## Analysis of Results 
+### Analysis of kernel execution time
+[insert answer]
+
+### Analysis of speed performance across all platforms
+[insert answer]
+
+### Additional (from the specs)
+--Guide questions for analysis (for all CUDA variants).  This is not comprehensive; add more analysis as necessary --
+
+a.) How does block size affect execution time (observing various elements and using max blocks)?  Which block size will you recommend?
+b.) Is prefetching always recommended, or should CUDA manage memory?  Give some use cases in which one is better than the other.
+c.) Between SIMD and SIMT, which one is faster? Give some use cases in which one is better than the other.
+
+## Project Experience and Insights
+[insert problems encountered and solutions made]
+[insert unique methodology used] 
+[insert AHA moments, etc.]
+
+## Differences between SIMD and SIMT
+[discuss, based on your experience on the particular project use case, the differences between SIMD and SIMT in handling parallelism.]
+[include also the PROS and CONS of using SIMD and SIMT in your use]
