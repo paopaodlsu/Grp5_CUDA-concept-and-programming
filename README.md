@@ -77,7 +77,6 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 | CUDA Prefetch+Page creatition+memadvise	 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 
 ### Table 3. CUDA Block Size: 1024
-Each kernel automatically runs 30 times, and the average execution time is recorded below:
 |   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|-------------------|-------------------|-------------------|-----------------------|
 | C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
