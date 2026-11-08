@@ -1,6 +1,6 @@
 # Deep-Dive-CUDA-concept-and-programming
 
-**Group 5 Members**
+## **Group 5 Members**
 - Hernaez, Raeka Estrelle
 - Liwanag, Ram Miguel
 - Serrano, Paul Rhazzel
