@@ -35,6 +35,8 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 ---
 ## Program Output, Correctness Check, and Execution Time
 
+### Block Size = 256 
+
 ### C/C++ Program
 <img width="500" height="204" alt="image" src="https://github.com/user-attachments/assets/8a0babc0-d891-4b26-97d1-b28605dd159b" />
 
