@@ -41,39 +41,39 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 
 ### Block Size = 256 
 
-### CUDA (Variant 2)
+#### CUDA (Variant 2)
 <img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/b199e3e0-096c-491b-90b1-ba398f577881" />
 
-### CUDA (Variant 3)
+#### CUDA (Variant 3)
 <img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/6b0fb279-8288-418d-a193-56172ede96c7" />
 
-### CUDA (Variant 4)
+#### CUDA (Variant 4)
 <img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/4ccac663-8eb3-43f5-a394-4f9c44f0a04c" />
 
-### CUDA (Variant 5)
+#### CUDA (Variant 5)
 <img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/64a239ca-93b8-4cb1-abae-af41bb02980b" />
 
 
 ### Block Size = 512 
 
-### CUDA (Variant 2)
+#### CUDA (Variant 2)
 
-### CUDA (Variant 3)
+#### CUDA (Variant 3)
 
-### CUDA (Variant 4)
+#### CUDA (Variant 4)
 
-### CUDA (Variant 5)
+#### CUDA (Variant 5)
 
 
 ### Block Size = 1024
 
-### CUDA (Variant 2)
+#### CUDA (Variant 2)
 
-### CUDA (Variant 3)
+#### CUDA (Variant 3)
 
-### CUDA (Variant 4)
+#### CUDA (Variant 4)
 
-### CUDA (Variant 5)
+#### CUDA (Variant 5)
 
 
 ---
