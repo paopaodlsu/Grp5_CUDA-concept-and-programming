@@ -22,7 +22,7 @@ Store the computed results in vector A. Display the execution time, first five e
 
 #### Requirements:
 * Implement four versions of the vector triad operation: C, x86-64 assembly, SIMD XMM, and SIMD YMM.
-* Test vector sizes of 2^{20}, 2^{26}, and 2^{28}. If 2^{30} is not possible, reduce the size to 2^{28} or 2^{29}, depending on memory capacity.
+* Test vector sizes of 2<sup>20</sup>, 2<sup>26</sup>, and 2<sup>28</sup>. If 2<sup>30</sup> is not possible, reduce the size to 2<sup>28</sup> or 2<sup>29</sup>, depending on memory capacity.
 * Execute each kernel at least 30 times and obtain the average execution time.
 * Test boundary elements to verify that the SIMD implementations handle vector sizes that are not exact multiples of the register width.
 
