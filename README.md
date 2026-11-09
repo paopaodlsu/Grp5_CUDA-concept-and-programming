@@ -30,7 +30,7 @@ Store the computed results in vector A. Display the execution time, first five e
 https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sharing 
 
 ### AI Usage Declaration
-Generative AI tools, specifically Google Gemini and ChatGPT, were used during the completion of this project. All AI-generated outputs were reviewed, verified, tested, and modified by the team members, who take full responsibility for the final submission and overall integrity of the work.
+[insert ai declaration]
 
 ---
 ## Program Output, Correctness Check, and Execution Time
