@@ -133,10 +133,10 @@ The following screenshots show the NSYS profiling results for all four CUDA vari
 [insert nsys screenshot]
 
 #### CUDA (Variant 3)
-[insert nsys screenshot]
+<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/8236c462-5db3-4d68-a56a-2818322119e4" />
 
 #### CUDA (Variant 4)
-[insert nsys screenshot]
+<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/7c790ce2-c7a7-42f5-8469-4b9714049f21" />
 
 #### CUDA (Variant 5)
 <img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/a306581b-4b58-474b-9b69-9b754924b970" />
