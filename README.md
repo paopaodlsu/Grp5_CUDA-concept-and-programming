@@ -101,13 +101,13 @@ The following screenshots show the NSYS profiling results for all four CUDA vari
 The following screenshots show the NSYS profiling results for all four CUDA variants using a `block size of 512.`
 
 ### CUDA (Variant 2)
-[insert nsys screenshot]
+<img width="800" height="475" alt="image" src="https://github.com/user-attachments/assets/11e840b5-82f9-4de0-aec2-e0cb50894801" />
 
 ### CUDA (Variant 3)
-[insert nsys screenshot]
+<img width="800" height="475" alt="image" src="https://github.com/user-attachments/assets/abc82f6a-c1cd-4d7d-9932-c83e6da5127e" />
 
 ### CUDA (Variant 4)
-[insert nsys screenshot]
+<img width="800" height="475" alt="image" src="https://github.com/user-attachments/assets/0f64e478-f0ec-458b-8a7a-98a5cb8eeed7" />
 
 ### CUDA (Variant 5)
 <img width="800" height="475" alt="image" src="https://github.com/user-attachments/assets/9291b78b-f0f4-47af-8ac5-8c7516d6fc74" />
