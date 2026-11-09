@@ -57,13 +57,16 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 ### Block Size = 512 
 
 #### CUDA (Variant 2)
+<img width="530" height="270" alt="image" src="https://github.com/user-attachments/assets/5e6ba299-40ef-4c9f-b0ef-52bb399deb47" />
 
 #### CUDA (Variant 3)
+<img width="530" height="270" alt="image" src="https://github.com/user-attachments/assets/5803199d-b607-4b92-92cf-74efddf8b594" />
 
 #### CUDA (Variant 4)
+<img width="530" height="270" alt="image" src="https://github.com/user-attachments/assets/80052d17-95ec-44bd-8481-790d3155cb11" />
 
 #### CUDA (Variant 5)
-
+<img width="530" height="270" alt="image" src="https://github.com/user-attachments/assets/3b69c280-d934-4dcf-b1ee-40315a3fcb1b" />
 
 ### Block Size = 1024
 
