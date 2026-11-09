@@ -35,7 +35,22 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 [insert screenshot]
 
 ---
-## NSYS Results
+## NSYS Profiling Results
+
+### CUDA (Variant 2)
+[insert nsys screenshot]
+
+### CUDA (Variant 3)
+[insert nsys screenshot]
+
+### CUDA (Variant 4)
+[insert nsys screenshot]
+
+### CUDA (Variant 5)
+[insert nsys screenshot]
+
+---
+## NCU Profiling Results
 
 ### CUDA (Variant 2)
 [insert nsys screenshot]
