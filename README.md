@@ -208,10 +208,12 @@ With a block size of 256, all eight implementations produced correct results, wi
 | x86-64 | N/A | 10.3671 ms | 9.5470 ms | 13.4715 ms | 1.9369x |
 | x86-64 SIMD XMM | N/A | 10.3294 ms | 9.0370 ms | 13.0426 ms | 1.9439x |
 | x86-64 SIMD YMM | N/A | 9.1923 ms | 8.8670 ms | 9.6287 ms | 2.1836x |
-| CUDA Unified | 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch | 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+page creation | 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+Page creatition+memadvise	| 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Unified | 512 | 2.9957 ms | 1.0078 ms |  62.6203 ms | 6.6998x |
+| CUDA Prefetch | 512 | 1.0082 ms | 1.0065 ms | 1.0094 ms | 19.9089x |
+| CUDA Prefetch+page creation | 512 | 1.0081 ms | 1.0063 ms | 1.0088 ms | 19.9101x |
+| CUDA Prefetch+Page creatition+memadvise	| 512 | 1.0081 ms | 1.0064 ms | 1.0087 ms | 19.9108x |
+
+At block size 512, all implementations passed the correctness check. The three CUDA variants that use prefetching recorded very similar average kernel times, all around 1.008 ms. Variant 4 was slightly faster than Variant 3 in this run, while Variant 5 had the lowest minimum time. 
 
 ### Table 3. CUDA Block Size: 1024
 |   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
