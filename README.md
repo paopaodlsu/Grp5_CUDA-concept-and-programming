@@ -135,6 +135,8 @@ Note: CUDA block sizes (256, 512, and 1024) apply only to the CUDA implementatio
 | CUDA Prefetch+page creation | 256 | 1.0003 ms | 0.9981 ms | 1.0008 ms | 20.0668x |
 | CUDA Prefetch+Page creatition+memadvise	| 256 | 1.0004 ms | 0.9981 ms | 1.0011 ms | 20.0639x |
 
+With a block size of 256, all eight implementations produced correct results, with no errors reported. YMM performed best among the CPU implementations, while the CUDA versions with prefetching had noticeably lower average kernel times than the version without prefetching. CUDA Prefetch + Page Creation recorded the lowest average kernel time at 1.0003 ms, followed closely by the version with MemAdvise at 1.0004 ms.
+
 ### Table 2. CUDA Block Size: 512
 |   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|------------|-------------------|-------------------|-------------------|-----------------------|
