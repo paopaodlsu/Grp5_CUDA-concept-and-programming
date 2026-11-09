@@ -71,7 +71,7 @@ Note: CUDA block sizes (256, 512, and 1024) apply only to the CUDA implementatio
 ### Table 1. CUDA Block Size: 256
 |   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|------------|-------------------|-------------------|-------------------|-----------------------|
-| C | N/A | 20.0719 ms | 19.2134 ms | 22.3349 | 1.0000x |
+| C | N/A | 20.0719 ms | 19.2134 ms | 22.3349 ms | 1.0000x |
 | x86-64 | N/A | 10.3671 ms | 9.5470 ms | 13.4715 ms | 1.9369x |
 | x86-64 SIMD XMM | N/A | 10.3294 ms | 9.0370 ms | 13.0426 ms | 1.9439x |
 | x86-64 SIMD YMM | N/A | 9.1923 ms | 8.8670 ms | 9.6287 ms | 2.1836x |
