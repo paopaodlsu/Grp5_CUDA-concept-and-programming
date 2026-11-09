@@ -15,7 +15,7 @@ Implement the vector triad operation using C, x86-64 assembly, SIMD XMM, and SIM
 A scalar variable n representing the vector length. Vectors B, C, and D contain single-precision floating-point values.
 
 #### Process:
-*A[i] = B[i] + C[i] \times D[i]*
+*A[i] = B[i] + C[i] x D[i]*
 
 #### Output: 
 Store the computed results in vector A. Display the execution time, first five elements, and last five elements of vector A for verification.
