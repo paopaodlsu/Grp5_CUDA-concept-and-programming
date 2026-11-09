@@ -232,25 +232,18 @@ The 1024 block size results show that all implementations passed the correctness
 ---
 ## Analysis of Results 
 ### Analysis of kernel execution time
-[insert answer]
+Among CPU implementations, the scalar C baseline was slowest at 20.07 ms, while x86-64 assembly with 10.37 ms and XMM 10.33 ms were nearly identical, and YMM was fastest at 9.19 ms. This near-tie suggests the CPU kernels are memory-bandwidth-limited, since each element requires three loads and one store per multiply-add. The CUDA kernels were much faster, at about 1.00 to 1.06 ms, implying roughly 268 GB/s effective bandwidth for 2^24 floats across four arrays. CUDA Unified averaged 2.87 ms at block size 256, but its minimum matched the prefetch variants, while the maximum of about 59 ms reflects first-launch page-fault migration. Page creation and cudaMemAdvise made no measurable difference, as Variants 3, 4, and 5 were within 0.1% of each other at every block size.
 
 ### Analysis of speed performance across all platforms
-[insert answer]
+For the speed performance, the C baseline, x86-64 and XMM reached about 1.94x, YMM reached 2.18x, CUDA Unified about 7x, and prefetched CUDA variants about 20x at block size 256. Against the best CPU result, the prefetched CUDA kernels were about 9x faster, consistent with the GPU’s much higher memory bandwidth. Widening SIMD from 128-bit to 256-bit gained only about 11%, as the CPU is already close to saturating its memory bus. However, these comparisons should be interpreted carefully because the C execution time came from Google Colab, while the assembly and SIMD execution times came from our previously implemented program on different hardware. Furthermore, the measured kernel times exclude host-to-device memory transfers, meaning that including these transfers in the total execution time would reduce the CUDA advantage, particularly for one-time operations involving smaller datasets.
 
-### Additional (from the specs)
---Guide questions for analysis (for all CUDA variants).  This is not comprehensive; add more analysis as necessary --
-
-- a.) How does block size affect execution time (observing various elements and using max blocks)?  Which block size will you recommend?
-- b.) Is prefetching always recommended, or should CUDA manage memory?  Give some use cases in which one is better than the other.
-- c.) Between SIMD and SIMT, which one is faster? Give some use cases in which one is better than the other.
+### Additional Analysis
+Block size directly influences CUDA execution time because it determines how many threads are grouped together within each block, affecting GPU occupancy and resource utilization. Based on our results, a block size of 256 performed the best, achieving approximately 1.0003 ms with prefetching and page creation, compared to 1.0081 ms at 512 and 1.0616 ms at 1024. This indicates that increasing the block size does not necessarily improve performance, since larger blocks may affect resource allocation and reduce the number of blocks that can execute concurrently. Regarding memory management, prefetching is not always recommended because CUDA Unified Memory can automatically manage data migration between the CPU and GPU, making it more convenient for applications with unpredictable memory access patterns. However, explicit prefetching is more beneficial when processing large datasets with predictable access patterns because it allows data migration to occur before the kernel requires the data, reducing potential memory migration delays.
   
 ---
 ## Project Experience and Insights
-- [insert problems encountered and solutions made]
-- [insert unique methodology used] 
-- [insert AHA moments, etc.]
+One of the main challenges we encountered during the project was experiencing difficulties accessing the GPU runtime in Google Colab, as the platform kept restricting when it was executing the CUDA, causing a delay on addressing it first before proceeding to continue with the experiment which was waiting around the runtime to clear. Another challenge was comparing the performance of different implementations while ensuring that each produced correct and consistent results. This has been addressed this by executing each implementation 30 times and recording the average, minimum, and maximum execution times to provide a more reliable performance comparison. An important part of the methodology was testing different CUDA block sizes and memory management variants to determine how they affected kernel performance. One of our "AHA" moments was finding that GPU acceleration alone does not automatically guarantee optimal performance, since memory management and thread configuration also have a significant impact on execution time. Through the creation of this project, it has given a clearer and better understanding of how parallel computing techniques work and how selecting the appropriate implementation and configuration can significantly improve computational performance.
   
 ---
 ## Differences between SIMD and SIMT
-- [discuss, based on your experience on the particular project use case, the differences between SIMD and SIMT in handling parallelism.]
-- [include also the PROS and CONS of using SIMD and SIMT in your use]
+Based on our vector triad operation, SIMD and SIMT both utilize parallelism however it has a difference in how they process multiple data elements. SIMD executes a single instruction on multiple data values simultaneously, as demonstrated by our XMM and YMM implementations, where YMM achieved a better performance than XMM because of its wider 256-bit registers. In contrast, SIMT distributes individual threads across GPU processing units, allowing a large number of threads to execute similar instructions on different data elements simultaneously. The main advantage of SIMD is its efficient execution of parallel operations directly on the CPU without requiring GPU memory transfers, although its parallel processing capacity is limited by the CPU's available vector registers and resources. Meanwhile, SIMT provides greater parallel processing capabilities for large datasets, as demonstrated by the produced CUDA results, but it requires careful management of memory transfers, thread configurations, and GPU resources to achieve optimal performance.
