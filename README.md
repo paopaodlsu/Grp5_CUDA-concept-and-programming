@@ -227,7 +227,7 @@ At block size 512, all implementations passed the correctness check. The three C
 | CUDA Prefetch+page creation | 1024 | 1.0616 ms | 1.0603 ms | 1.0628 | 18.9073x |
 | CUDA Prefetch+Page creatition+memadvise	| 1024 | 1.0614 ms | 1.0601 ms | 1.0626 ms | 18.9101x |
 
-Increasing the block size to 1024 brought the average kernel times of the prefetching variants to around 1.06 ms, slightly higher than their results with 512 threads. Variants 3 and 5 were nearly tied, while Variant 4 was only a little behind. Variant 2 stood out with a much higher maximum time of 59.5637 ms, despite having a minimum of just 1.0222 ms.
+The 1024 block size results show that all implementations passed the correctness check. The prefetching implementations recorded similar average execution times of around 1.06 ms, while the CUDA version without prefetching had a noticeably higher maximum execution time. 
 
 ---
 ## Analysis of Results 
