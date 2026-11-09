@@ -40,7 +40,7 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 
 
 ### CUDA (Variant 2)
-<img width="676" height="251" alt="image" src="https://github.com/user-attachments/assets/6ba4a153-938e-4c69-b833-326ac160240e" />
+<img width="467" height="221" alt="image" src="https://github.com/user-attachments/assets/b199e3e0-096c-491b-90b1-ba398f577881" />
 
 
 ### CUDA (Variant 3)
@@ -59,16 +59,16 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 The following screenshots show the NSYS profiling results for all four CUDA variants using a `block size of 256.`
 
 ### CUDA (Variant 2)
-[insert nsys screenshot]
+<img width="790" height="448" alt="image" src="https://github.com/user-attachments/assets/7bdcb066-37f2-4792-9f5e-69bff60d5130" />
 
 ### CUDA (Variant 3)
-[insert nsys screenshot]
+<img width="786" height="454" alt="image" src="https://github.com/user-attachments/assets/3cd0f6bf-85e3-40fe-809d-4c1ee5d18f4b" />
 
 ### CUDA (Variant 4)
-[insert nsys screenshot]
+<img width="829" height="454" alt="image" src="https://github.com/user-attachments/assets/161f8b6f-941b-4eb8-b42d-a8865fdb4ea2" />
 
 ### CUDA (Variant 5)
-[insert nsys screenshot]
+<img width="834" height="450" alt="image" src="https://github.com/user-attachments/assets/1e630306-199c-4d58-8b8f-f5a998284bc6" />
 
 ### Block Size = 512 
 The following screenshots show the NSYS profiling results for all four CUDA variants using a `block size of 512.`
