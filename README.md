@@ -134,31 +134,31 @@ The following screenshots show the NSYS profiling results for all four CUDA vari
 ### Block Size = 256 
 
 #### CUDA (Variant 2)
-<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/bae5c148-deff-4f8f-981b-04d897b00e6d" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/bae5c148-deff-4f8f-981b-04d897b00e6d" />
 
 #### CUDA (Variant 3)
-<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/8236c462-5db3-4d68-a56a-2818322119e4" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/8236c462-5db3-4d68-a56a-2818322119e4" />
 
 #### CUDA (Variant 4)
-<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/7c790ce2-c7a7-42f5-8469-4b9714049f21" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/7c790ce2-c7a7-42f5-8469-4b9714049f21" />
 
 #### CUDA (Variant 5)
-<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/a306581b-4b58-474b-9b69-9b754924b970" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/a306581b-4b58-474b-9b69-9b754924b970" />
 
 
 ### Block Size = 512 
 
 #### CUDA (Variant 2)
-<img width="645" height="465" alt="image" src="https://github.com/user-attachments/assets/fbbc989b-cfd5-4a44-ae2d-1fd81b39e86f" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/fbbc989b-cfd5-4a44-ae2d-1fd81b39e86f" />
 
 #### CUDA (Variant 3)
-<img width="645" height="465" alt="image" src="https://github.com/user-attachments/assets/c0b09041-165a-4fe7-a946-032e1038f95d" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/c0b09041-165a-4fe7-a946-032e1038f95d" />
 
 #### CUDA (Variant 4)
-<img width="645" height="465" alt="image" src="https://github.com/user-attachments/assets/7a483b66-1ebb-412d-b12c-5f7a1dad9017" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/7a483b66-1ebb-412d-b12c-5f7a1dad9017" />
 
 #### CUDA (Variant 5)
-<img width="645" height="465" alt="image" src="https://github.com/user-attachments/assets/2f5ee86e-eecf-4768-93f2-d869e345f937" />
+<img width="560" height="458" alt="image" src="https://github.com/user-attachments/assets/2f5ee86e-eecf-4768-93f2-d869e345f937" />
 
 
 ### Block Size = 1024 
