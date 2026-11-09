@@ -66,6 +66,7 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 
 ---
 ## Comparative Execution Time
+Note: CUDA block sizes (256, 512, and 1024) apply only to the CUDA implementations (not on SIMD). They do not apply to the C, x86-64, XMM, and YMM implementations. All implementations are automatically executed 30 times to obtain their average, minimum, and maximum execution times.
 
 ### Table 1. CUDA Block Size: 256
 |   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
