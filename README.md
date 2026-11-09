@@ -40,7 +40,7 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 
 
 ### CUDA (Variant 2)
-<img width="467" height="221" alt="image" src="https://github.com/user-attachments/assets/b199e3e0-096c-491b-90b1-ba398f577881" />
+<img width="500" height="221" alt="image" src="https://github.com/user-attachments/assets/b199e3e0-096c-491b-90b1-ba398f577881" />
 
 
 ### CUDA (Variant 3)
