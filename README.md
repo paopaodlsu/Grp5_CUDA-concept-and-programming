@@ -110,7 +110,8 @@ The following screenshots show the NSYS profiling results for all four CUDA vari
 [insert nsys screenshot]
 
 ### CUDA (Variant 5)
-[insert nsys screenshot]
+<img width="800" height="475" alt="image" src="https://github.com/user-attachments/assets/9291b78b-f0f4-47af-8ac5-8c7516d6fc74" />
+
 
 ### Block Size = 1024 
 The following screenshots show the NSYS profiling results for all four CUDA variants using a `block size of 1024.`
