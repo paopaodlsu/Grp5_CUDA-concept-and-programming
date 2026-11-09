@@ -119,6 +119,8 @@ The following screenshots show the NSYS profiling results for all four CUDA vari
 ## Comparative Execution Time
 Note: CUDA block sizes (256, 512, and 1024) apply only to the CUDA implementations, not the C or SIMD implementations. The C execution time was taken from Google Colab, while the x86-64, XMM, and YMM execution times were taken from our previously implemented program. All implementations are automatically executed 30 times to obtain their average, minimum, and maximum execution times.
 
+2<sup>24</sup> elements
+ 
 ### Table 1. CUDA Block Size: 256
 |   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|------------|-------------------|-------------------|-------------------|-----------------------|
