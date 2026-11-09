@@ -8,16 +8,19 @@
 
 ---
 ## Project Specifications
-Objective: Implement the vector triad operation using C, x86-64 assembly, SIMD XMM, and SIMD YMM.
+#### Objective: 
+Implement the vector triad operation using C, x86-64 assembly, SIMD XMM, and SIMD YMM.
 
-Input: A scalar variable n representing the vector length. Vectors B, C, and D contain single-precision floating-point values.
+#### Input: 
+A scalar variable n representing the vector length. Vectors B, C, and D contain single-precision floating-point values.
 
-Process:
-A[i] = B[i] + C[i] \times D[i]
+#### Process:
+*A[i] = B[i] + C[i] \times D[i]*
 
-Output: Store the computed results in vector A. Display the execution time, first five elements, and last five elements of vector A for verification.
+#### Output: 
+Store the computed results in vector A. Display the execution time, first five elements, and last five elements of vector A for verification.
 
-Requirements:
+#### Requirements:
 * Implement four versions of the vector triad operation: C, x86-64 assembly, SIMD XMM, and SIMD YMM.
 * Test vector sizes of 2^{20}, 2^{26}, and 2^{28}. If 2^{30} is not possible, reduce the size to 2^{28} or 2^{29}, depending on memory capacity.
 * Execute each kernel at least 30 times and obtain the average execution time.
