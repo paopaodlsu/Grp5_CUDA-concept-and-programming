@@ -68,40 +68,40 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 ## Comparative Execution Time
 
 ### Table 1. CUDA Block Size: 256
-|   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
-|---|-------------------|-------------------|-------------------|-----------------------|
-| C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
-| x86-64 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| x86-64 SIMD XMM | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| x86-64 SIMD YMM | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Unified | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+page creation | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+Page creatition+memadvise	 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+|   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
+|---|------------|-------------------|-------------------|-------------------|-----------------------|
+| C | N/A | [insert avg] | [insert min] | [insert max] | [insert speedup] |
+| x86-64 | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| x86-64 SIMD XMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| x86-64 SIMD YMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Unified | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch+page creation | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch+Page creatition+memadvise	| 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 
 ### Table 2. CUDA Block Size: 512
-|   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
-|---|-------------------|-------------------|-------------------|-----------------------|
-| C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
-| x86-64 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| x86-64 SIMD XMM | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| x86-64 SIMD YMM | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Unified | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+page creation | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+Page creatition+memadvise	 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+|   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
+|---|------------|-------------------|-------------------|-------------------|-----------------------|
+| C | N/A | [insert avg] | [insert min] | [insert max] | [insert speedup] |
+| x86-64 | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| x86-64 SIMD XMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| x86-64 SIMD YMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Unified | 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch | 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch+page creation | 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch+Page creatition+memadvise	| 512 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 
 ### Table 3. CUDA Block Size: 1024
-|   | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
-|---|-------------------|-------------------|-------------------|-----------------------|
-| C | [insert avg] | [insert min] | [insert max] | [insert speedup] |
-| x86-64 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| x86-64 SIMD XMM | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| x86-64 SIMD YMM | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Unified | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+page creation | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Prefetch+Page creatition+memadvise	 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+|   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
+|---|------------|-------------------|-------------------|-------------------|-----------------------|
+| C | N/A | [insert avg] | [insert min] | [insert max] | [insert speedup] |
+| x86-64 | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| x86-64 SIMD XMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| x86-64 SIMD YMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Unified | 1024 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch | 1024 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch+page creation | 1024 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Prefetch+Page creatition+memadvise	| 1024 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 
 ---
 ## Analysis of Results 
