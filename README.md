@@ -75,7 +75,7 @@ Note: CUDA block sizes (256, 512, and 1024) apply only to the CUDA implementatio
 | x86-64 | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | x86-64 SIMD XMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | x86-64 SIMD YMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Unified | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
+| CUDA Unified | 256 | 2.8702 ms | 1.0002 ms |  58.9614 ms | [insert speedup] |
 | CUDA Prefetch | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | CUDA Prefetch+page creation | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | CUDA Prefetch+Page creatition+memadvise	| 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
