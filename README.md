@@ -44,7 +44,7 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 
 
 ### CUDA (Variant 3)
-[insert screenshot]
+<img width="553" height="217" alt="image" src="https://github.com/user-attachments/assets/6b0fb279-8288-418d-a193-56172ede96c7" />
 
 ### CUDA (Variant 4)
 [insert screenshot]
