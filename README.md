@@ -127,16 +127,48 @@ The following screenshots show the NSYS profiling results for all four CUDA vari
 ---
 ## NCU Profiling Results
 
-### CUDA (Variant 2)
+### Block Size = 256 
+
+#### CUDA (Variant 2)
 [insert nsys screenshot]
 
-### CUDA (Variant 3)
+#### CUDA (Variant 3)
 [insert nsys screenshot]
 
-### CUDA (Variant 4)
+#### CUDA (Variant 4)
 [insert nsys screenshot]
 
-### CUDA (Variant 5)
+#### CUDA (Variant 5)
+<img width="559" height="458" alt="image" src="https://github.com/user-attachments/assets/a306581b-4b58-474b-9b69-9b754924b970" />
+
+
+### Block Size = 512 
+
+#### CUDA (Variant 2)
+[insert nsys screenshot]
+
+#### CUDA (Variant 3)
+[insert nsys screenshot]
+
+#### CUDA (Variant 4)
+[insert nsys screenshot]
+
+#### CUDA (Variant 5)
+[insert nsys screenshot]
+
+
+### Block Size = 1024 
+
+#### CUDA (Variant 2)
+[insert nsys screenshot]
+
+#### CUDA (Variant 3)
+[insert nsys screenshot]
+
+#### CUDA (Variant 4)
+[insert nsys screenshot]
+
+#### CUDA (Variant 5)
 [insert nsys screenshot]
 
 ---
