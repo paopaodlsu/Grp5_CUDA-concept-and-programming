@@ -36,7 +36,8 @@ https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sh
 ## Program Output, Correctness Check, and Execution Time
 
 ### C/C++ Program
-[insert screenshot]
+<img width="400" height="224" alt="image" src="https://github.com/user-attachments/assets/8a0babc0-d891-4b26-97d1-b28605dd159b" />
+
 
 ### CUDA (Variant 2)
 [insert screenshot]
