@@ -71,12 +71,12 @@ Note: CUDA block sizes (256, 512, and 1024) apply only to the CUDA implementatio
 ### Table 1. CUDA Block Size: 256
 |   | Block size | Kernel Time (Avg) | Kernel Time (Min) | Kernel Time (Max) | Speedup vs Baseline C |
 |---|------------|-------------------|-------------------|-------------------|-----------------------|
-| C | N/A | [insert avg] | [insert min] | [insert max] | [insert speedup] |
+| C | N/A | 20.0719 ms | 19.2134 ms | 22.3349 | 1.0000x |
 | x86-64 | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | x86-64 SIMD XMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | x86-64 SIMD YMM | N/A | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
-| CUDA Unified | 256 | 2.8702 ms | 1.0002 ms |  58.9614 ms | [insert speedup] |
-| CUDA Prefetch | 256 | 1.0068 ms | 1.0002 ms |  1.0084 ms | [insert speedup] |
+| CUDA Unified | 256 | 2.8702 ms | 1.0002 ms |  58.9614 ms | 6.9931x |
+| CUDA Prefetch | 256 | 1.0068 ms | 1.0002 ms |  1.0084 ms | 19.9365x |
 | CUDA Prefetch+page creation | 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 | CUDA Prefetch+Page creatition+memadvise	| 256 | [insert avg] | [insert min] |  [insert max] | [insert speedup] |
 
