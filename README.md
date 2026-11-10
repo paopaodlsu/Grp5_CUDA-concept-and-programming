@@ -30,7 +30,7 @@ Store the computed results in vector A. Display the execution time, first five e
 https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sharing 
 
 ### AI Usage Declaration
-[insert ai declaration]
+The group utilized ChatGPT to assist in understanding the concepts surrounding CUDA programming. It was also used in verifying the completeness of the group's outputs and that no necessary information was omitted. All final works were extensively screened and tested by the group.  
 
 ---
 ## Program Output, Correctness Check, and Execution Time
