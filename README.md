@@ -22,11 +22,11 @@ Store the computed results in vector A. Display the average, minimum, and maximu
 
 #### Requirements:
 * Implement four CUDA versions of the Vector Triad operation:
- *CUDA grid-stride loop without prefetching or memory advice.
- *CUDA grid-stride loop with prefetching, without page creation or memory advice.
- *CUDA grid-stride loop with prefetching and page creation, without memory advice.
- *CUDA grid-stride loop with prefetching, page creation, and memory advice.
-* TUse Unified Memory for vector allocation and document the initialization values of all input vectors
+ * CUDA grid-stride loop without prefetching or memory advice.
+ * CUDA grid-stride loop with prefetching, without page creation or memory advice.
+ * CUDA grid-stride loop with prefetching and page creation, without memory advice.
+ * CUDA grid-stride loop with prefetching, page creation, and memory advice.
+* Use Unified Memory for vector allocation and document the initialization values of all input vectors
 * Execute each kernel at least 30 times and measure average, minimum, and maximum execution times. Measure the kernel portion only.
 * Use (2^{24}) elements for the main comparative experiment.
 * Evaluate CUDA block sizes of 256, 512, and 1024 threads per block.
