@@ -9,22 +9,31 @@
 ---
 ## Project Specifications
 #### Objective: 
-Implement the vector triad operation using C, x86-64 assembly, SIMD XMM, and SIMD YMM.
+Implement and evaluate four CUDA versions of the Vector Triad operation using different memory-management strategies.
 
 #### Input: 
-A scalar variable n representing the vector length. Vectors B, C, and D contain single-precision floating-point values.
+A scalar variable n (integer) representing the vector length. Vectors B, C, and D contain single-precision floating-point values.
 
 #### Process:
 *A[i] = B[i] + C[i] x D[i]*
 
 #### Output: 
-Store the computed results in vector A. Display the execution time, first five elements, and last five elements of vector A for verification.
+Store the computed results in vector A. Display the average, minimum, and maximum kernel execution times, the first five and last five elements of vector A, and the error count from correctness verification against the C implementation.
 
 #### Requirements:
-* Implement four versions of the vector triad operation: C, x86-64 assembly, SIMD XMM, and SIMD YMM.
-* Test vector sizes of 2<sup>20</sup>, 2<sup>26</sup>, and 2<sup>28</sup>. If 2<sup>30</sup> is not possible, reduce the size to 2<sup>28</sup> or 2<sup>29</sup>, depending on memory capacity.
-* Execute each kernel at least 30 times and obtain the average execution time.
-* Test boundary elements to verify that the SIMD implementations handle vector sizes that are not exact multiples of the register width.
+* Implement four CUDA versions of the Vector Triad operation:
+ *CUDA grid-stride loop without prefetching or memory advice.
+ *CUDA grid-stride loop with prefetching, without page creation or memory advice.
+ *CUDA grid-stride loop with prefetching and page creation, without memory advice.
+ *CUDA grid-stride loop with prefetching, page creation, and memory advice.
+* TUse Unified Memory for vector allocation and document the initialization values of all input vectors
+* Execute each kernel at least 30 times and measure average, minimum, and maximum execution times. Measure the kernel portion only.
+* Use (2^{24}) elements for the main comparative experiment.
+* Evaluate CUDA block sizes of 256, 512, and 1024 threads per block.
+* Verify the correctness of all CUDA implementations against the C implementation using a floating-point tolerance.
+* Calculate speedups relative to the baseline C implementation.
+* Use NVIDIA Nsight Systems (nsys) and NVIDIA Nsight Compute (ncu) to profile all four CUDA implementations.
+* Compare execution times, block configurations, and profiling results to evaluate the effects of prefetching, page creation, and memory advice.
 
 ### Google Colab link
 https://colab.research.google.com/drive/1SNLly6QXbylkRBbi87WCoFlog0HELDtE?usp=sharing 
