@@ -28,7 +28,7 @@ Store the computed results in vector A. Display the average, minimum, and maximu
   * CUDA grid-stride loop with prefetching, page creation, and memory advice.
 * Use Unified Memory for vector allocation and document the initialization values of all input vectors
 * Execute each kernel at least 30 times and measure average, minimum, and maximum execution times. Measure the kernel portion only.
-* Use (2^{24}) elements for the main comparative experiment.
+* Use 2<sup>24</sup> elements for the main comparative experiment.
 * Evaluate CUDA block sizes of 256, 512, and 1024 threads per block.
 * Verify the correctness of all CUDA implementations against the C implementation using a floating-point tolerance.
 * Calculate speedups relative to the baseline C implementation.
